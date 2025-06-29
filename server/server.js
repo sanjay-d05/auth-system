@@ -16,7 +16,6 @@ const CLIENT_URI = process.env.CLIENT_URI;
 // List of allowed origins (one from env, others hardcoded)
 const allowedOrigins = [
   CLIENT_URI,
-  process.env.CLIENT_URI,
   "https://auth-system-client-749y.onrender.com"
 ];
 
